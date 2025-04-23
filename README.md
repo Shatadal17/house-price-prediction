@@ -24,6 +24,13 @@ In this project, I implemented **Regression Analysis** using the powerful **XGBo
 
 ### 2. 🏘 Loading the Dataset
 - Loaded the **California Housing dataset** using `sklearn.datasets.fetch_california_housing()`.
+- Features include:
+
+     MedInc: Median income
+     HouseAge: Median house age
+     AveRooms, AveBedrms, etc.
+     Latitude, Longitude
+     Target: Median house value for California districts (in $100,000s)
 - Assigned the data to a variable `housing` and converted it into a **pandas DataFrame**.
 
 ---
